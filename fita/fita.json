@@ -1,23 +1,21 @@
 {
-"configuracoes": {
-  "vidaMaxima": 5,
-  "vidaInicial": 5
- },
-"mapa": [{
+  "configuracoes": {
+    "vidaMaxima": 5,
+    "vidaInicial": 5,
+    "dificuldade": "normal",
+    "tempoInvencibilidade": 1000
+  },
+  "mapa": [
+    {
       "inimigo": 0,
-      "velocidade": 10
+      "velocidade": 10,
+      "tipo": "normal"
     },
     {
       "inimigo": 1,
-      "velocidade": 30
-    },
-    {
-      "inimigo": 1,
-      "velocidade": 15
-    },
-    {
-      "inimigo": 2,
-      "velocidade": 40
+      "velocidade": 30,
+      "tipo": "rápido"
     }
   ]
 }
+  
